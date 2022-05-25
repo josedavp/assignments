@@ -1,0 +1,22 @@
+Jose D. Pague
+vib296
+				ASSIGNMENT 3 
+
+1.) Darean Wilde, Alex Delgado, and Majerus Sims each were initially involved in a small/medium percentage. However, we did not share any code, we watched the lecture videos, and discussed what the pagetable means compared to frame table, but our approach was incorrect. Professor Silvestro was another large involvement with the whiteboard advice he wrote down,lecture notes and videos, and office hours. The lecture notes on paging memory and virtual memory were the most helpful. I also gave very very small input to Caitlyn relaying what the professor mentioned at Office hours which is if you have finished pagetable.c and the part2.c file and have not done phypages.c the professor said it would be fine. It would be nicer to do phypages.c though.
+
+2.) I don't know. It's probably 90-98% correct. With maybe one line incorrect maybe?
+
+3.)I think I'm nearly correct or should be. However while my initial and final output for part2.c is correct, the middle of the output file is not completely correct at least after running the sequence file and doing an md5sum.
+
+4.) This assignment was fun and while it may be straightforward after reading the assignment very very carefully I think it is a tough assignment. There could be some more hints by code (maybe give a couple of functions with a optional parameter) or something to help visualize the assignment a little bit further.
+
+5.) Nothing was printed here, did I need to?
+part1.c md5sum:
+ceabc02825a5b908e474b053074ab53c  part1.output
+ccf8da5d37f62978b3ac340825fb5ab5  part1sequence
+
+part2.c md5sum:
+a026b22ef4bd19c706c9372bdf1fa05f  part2.output
+e648f653e8531df17f8405dd87158701  part2sequence
+
+I did try to attempt part3.c. However the only main difference is getting the values from the command line rather than having it hard coded in the file most of my code was fortunately compatble to the change.However, while I tried to impliment these command line values in all honesty I had some difficulty figuring out the math for BytesPerPage. I assume it should be not too hard but I'm not sure how exactly. 

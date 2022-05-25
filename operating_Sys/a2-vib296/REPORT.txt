@@ -1,0 +1,98 @@
+Jose D. Pague
+vib296
+
+				Assignment 2
+
+	a.) Collaboration: Professor Silvestro: small-medium as he helped me with my error on s1 and s2 in the fcfs parameter in assign2.c He also notified me of unnecessary code in my fcfs, sjf, and psjf. I mainly received help from him for those things.
+On 10/08/2021 a classmate of mine named Caitlin from both OS and Software Engineering asked what the sm-proto.c was meant for. I mentioned its sort of the "skeleton code." Gave advice saying read the assignment very carefully, the lecture videos helped a lot, and I primarily relied on the lecture notes on cpu. I mentioned if you understand how the process works then you should be fine. And lastly I did mention atoi may be useful in main. Never said anything else past that other than good luck. 
+	b.) Fully completed. All functions are fully completed. 
+	c.) Program output below. 
+Part 1.)
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 8 7 3 6 3 2
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwwwrRR
+0 9 4.5 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 8 7 3 6 7 2
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwwwwwwwRR
+0 8 4.0 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 4 8 7 3 6 1 2
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRRRRRRRwwwwwwwRRR
+rrrrrrrrRRRRRRwrrrRR
+0 11 5.5 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 3 3 4 2 1 2
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRRwwwRRRR
+rrrRRwrrrrRR
+0 7 3.5 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 3 2 3 2 1 2
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRRwwRRR
+rrrRRwrrRR
+0 5 2.5 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 5 2 5 4 1 1
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRRRRwwrrRRRRR
+rrrrrRRRRwrrrrR
+2 9 5.5 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 2 3 4 1 1 5
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRwwwrrrrRRRR
+rrRwRRRRR
+4 2 3.0 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 2 3 4 1 4 1
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRwwwRRRR
+rrRwwwwrrR
+0 4 2.0 1.00000
+vib296@fox01:~/Fall2021/OS/assign2$ ./a.out 3 2 3 4 5 6 2
+CS 3424 Assignment 2 program was written by Jose Pague
+
+schedule fcfs:
+RRwwwrrRRRR
+rrRRRRRwwwwwwRR
+2 2 2.0 1.00000
+
+
+Part 5.)
+vib296@fox01:~/Fall2021/OS/assign2/example$ gcc runall.c pslibrary.c
+vib296@fox01:~/Fall2021/OS/assign2/example$ ls
+a.out  pslibrary.c  pslibrary.h  runall.c
+vib296@fox01:~/Fall2021/OS/assign2/example$ ./a.out 0 4 2 7 3 6 5
+vib296@fox01:~/Fall2021/OS/assign2/example$ ls
+a.out  fcfs.all  psjf.all  pslibrary.c  pslibrary.h  rr.all  runall.c  sjf.all
+vib296@fox01:~/Fall2021/OS/assign2/example$ ls -l *.all
+-rw-r--r-- 1 vib296 students 85428919 Oct  8 22:12 fcfs.all
+-rw-r--r-- 1 vib296 students 83299561 Oct  8 22:12 psjf.all
+-rw-r--r-- 1 vib296 students 89313481 Oct  8 22:12 rr.all
+-rw-r--r-- 1 vib296 students 83299560 Oct  8 22:12 sjf.all
+vib296@fox01:~/Fall2021/OS/assign2/example$ wc *.all
+  3543123   3543125  85428919 fcfs.all
+  3543123   3543125  83299561 psjf.all
+  3543123   3543125  89313481 rr.all
+  3543123   3543125  83299560 sjf.all
+ 14172492  14172500 341341521 total
+vib296@fox01:~/Fall2021/OS/assign2/example$ md5sum *.all
+c6c8cbad38688cf325f7427c89dc5044  fcfs.all
+249df4c268433e054c845e3ad6b5eb51  psjf.all
+b14567f00bf659498d1715731fb705e2  rr.all
+a65715976409787c395f3442cf904d9a  sjf.all
