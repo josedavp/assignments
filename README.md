@@ -1,2 +1,2 @@
-# projects/assignments
+# assignments/projects
 past assignments/projects
