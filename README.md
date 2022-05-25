@@ -4,5 +4,5 @@
   <li> Operating Systems </li>
   <li> Programming 2 </li>
   <li> Database </li>
-  <li> Computer Organization </li>
+  <li> Programming Languages </li>
 </ul>
