@@ -7,5 +7,4 @@
   <li> Programming Languages </li>
 </ul>
 
-Old assignments/projects that need to be organized. </br>
-Lacked good understanding of Github during my early time as a Computer Science Major.
+Old assignments/projects that need to be organized and placed in separate repositories. </br>
