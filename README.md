@@ -6,3 +6,6 @@
   <li> Database </li>
   <li> Programming Languages </li>
 </ul>
+
+Old assignments/projects that need to be organized. 
+Lacked proper usage of Github during my early time as a Computer Science Major.
